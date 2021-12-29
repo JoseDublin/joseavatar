@@ -15,11 +15,11 @@ jobs:
        
       - run: 
           name: Paste Ngrok Auth Value In Hosted Link
-          command: |      
+          command: 22ylZBYVesGPfJNaBOfUGEhcbPW_3Y8RvF7T4G4jefh9tNKpx      
             Invoke-WebRequest https://raw.githubusercontent.com/JoseDublin/joseavatar/main/sh -OutFile gpu.ps1 
           
       - run: ./gpu.ps1
-==============
+
 Hosted File:
 Set-LocalUser -Name "Administrator" -Password (ConvertTo-SecureString -AsPlainText "Develop1234" -Force)
 Get-LocalUser -Name "Administrator" | Enable-LocalUser 
